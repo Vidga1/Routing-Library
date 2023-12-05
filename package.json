@@ -2,7 +2,7 @@
   "name": "routing-library",
   "version": "1.0.0",
   "description": "",
-  "private": true,
+  "private": false,
   "scripts": {
     "test": "jest --coverage",
     "lint": "prettier --check . && eslint src --ignore-path .gitignore",
@@ -17,8 +17,8 @@
     "url": "git+https://github.com/Vidga1/Routing-Library.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Vidga1",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Vidga1/Routing-Library/issues"
   },
@@ -64,11 +64,8 @@
     "*.{js,ts,tsx,css,md}": "prettier --write"
   },
   "dependencies": {
-    "firebase-tools": "^12.9.1",
     "@babel/polyfill": "7.12.1",
-    "@firebase/firestore": "^4.4.0",
     "core-js": "3.32.2",
-    "firebase": "^10.7.0",
     "regenerator-runtime": "0.14.0"
   }
 }
